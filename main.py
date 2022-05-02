@@ -41,8 +41,8 @@ if __name__ == '__main__':
     readings = sensor.return_periodic_readings(15, 5)
 
     for reading in readings:
-        print(f"""{reading.temperature}\n
-        f"{reading.humidity}\n
-        f"{reading.pm_2p5}\n
-        f"{reading.pm_10}\n
+        print(f"""{reading.temperature}
+        f"{reading.humidity}
+        f"{reading.pm_2p5}
+        f"{reading.pm_10}
         """)
